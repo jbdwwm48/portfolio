@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="fr">
     <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>CHARBONNIER Jean-Baptiste - Portfolio</title>
-        <link href="src/output.css" rel="stylesheet" />
+        <link href="src/output.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     </head>
     <body class="font-sans flex flex-col min-h-screen bg-gradient-to-b from-gray-950 via-gray-900 to-gray-800 text-white flex items-center justify-center">     
@@ -16,13 +16,13 @@
                         <p class="text-center text-sm text-white place-items-center">Web Developer Fullstack</p>
                     </div>  
                     <ul class="flex items-center justify-end lg:w-10/12 space-x-2 lg:space-x-2">
-                        <li class="my-2"><a href="./index.html" class=" text-ice-blue font-bold underline  text-lg lg:text-xl">Biographie</a></li>
-                        <li class="my-2"><a href="./skills.html" class="text-white hover:font-bold text-lg lg:text-xl">Compétences</a></li>
-                        <li class="my-2"><a href="#" class="text-white hover:font-bold text-lg lg:text-xl">Projets</a></li>
-                        <li class="my-2"><a href="#" class="text-white hover:font-bold text-lg lg:text-xl">Expérience</a></li>
-                        <li class="my-2"><a href="#" class="text-white hover:font-bold text-lg lg:text-xl">Contact</a></li>
-                        <li class="my-2"><a href="#" class="hidden lg:flex text-white hover:font-bold text-lg lg:text-xl">Curriculum Vitae</a></li>
-                        <li class="my-2"><a href="#" class="flex lg:hidden text-white hover:font-bold text-lg lg:text-xl">CV</a></li>
+                        <li class="my-2"><a href="#biographie" class=" text-gray-100  hover:font-bold text-lg lg:text-xl">Biographie</a></li>
+                        <li class="my-2"><a href="#skills" class="text-gray-100  hover:font-bold text-lg lg:text-xl">Compétences</a></li>
+                        <li class="my-2"><a href="#" class="text-gray-100  hover:font-bold text-lg lg:text-xl">Projets</a></li>
+                        <li class="my-2"><a href="#exp" class="text-gray-100  hover:font-bold text-lg lg:text-xl">Expérience</a></li>
+                        <li class="my-2"><a href="#contact" class="text-gray-100  hover:font-bold text-lg lg:text-xl">Contact</a></li>
+                        <li class="my-2"><a href="/assets/docs/cvCharbonnierJB.pdf" class="hidden lg:flex text-gray-100  hover:font-bold text-lg lg:text-xl">Curriculum Vitae</a></li>
+                        <li class="my-2"><a href="/assets/docs/cvCharbonnierJB.pdf" class="flex lg:hidden text-gray-100  hover:font-bold text-lg lg:text-xl">CV</a></li>
                     </ul>
                 </nav>
             </div>
@@ -145,7 +145,7 @@
             </div>
     </section>
 
-    <section class="w-10/12 lg:w-8/12 h-auto py-8 mt-6 shadow-inner items-center" id="skills">
+    <section class="w-10/12 lg:w-8/12 h-auto py-8 mt-6 shadow-inner items-center" id="exp">
         <div class="flex items-center justify-center lg:justify-start mb-12">
             <div class="w-4 h-4 bg-ice-blue rounded-full shadow-2xl mr-2"></div>
             <h2 class="text-2xl font-bold">EXPÉRIENCE</h2>
@@ -192,13 +192,13 @@
         <h4 class="text-2xl my-2 w-full text-center">Contactez Moi</h4>
         <form action="/submit" method="post" class="flex flex-col w-full" id="reservationForm">
             <div class="flex items-center justify-around my-2">
-                <input class="w-1/2 h-6 m-1 border-3 font-semibold text-gray-800 border-4 border-solid border-ice-blue border-opacity-70  rounded-md" type="text" id="formName" placeholder="  Nom et Prénom" name="formName">
+                <input class="w-1/2 h-8 m-1 border-3 font-semibold text-[#4b5563] border-4 border-solid border-ice-blue border-opacity-70  rounded-md" type="text" id="formName" placeholder="  Nom et Prénom" name="formName">
             </div>
             <div class="flex items-center justify-around my-2">
-                <input class="w-1/2 h-6 m-1 border-3 font-semibold text-gray-800 border-4 border-solid border-ice-blue border-opacity-70  rounded-md" type="email" id="formEmail" placeholder="  Email" name="fromEmail">
+                <input class="w-1/2 h-8 m-1 border-3 font-semibold text-[#4b5563] border-4 border-solid border-ice-blue border-opacity-70  rounded-md" type="email" id="formEmail" placeholder="  Email" name="fromEmail">
             </div>
             <div class="flex items-center justify-around my-2">
-                <input class="w-1/2 h-6 m-1 border-3 font-semibold text-gray-800 border-4 border-solid border-ice-blue border-opacity-70 rounded-md" type="number" id="formNumber" placeholder="  Nombre de personnes" name="formNumber">
+                <textarea class="w-1/2 h-44 m-1 border-3 font-semibold text-gray-600 border-4 border-solid border-ice-blue border-opacity-70 rounded-md" rows="5" cols="33" id="formcom"name="formComment">  Laissez moi un commentaire.</textarea>
             </div>
             <div class="flex items-center justify-around my-2">
                 <button class="w-1/2 h-8 m-1 bg-ice-blue bg-opacity-10 text-snow border-2 border-solid border-ice-blue border-opacity-30 rounded-md font-bold hover:bg-gray-800 hover:border-ice-blue " type="submit">Envoyer</button>
@@ -214,17 +214,17 @@
                     <p class="text-center text-sm text-white place-items-center">charbonnierjb@example.com</p>
                 </div>
                 <ul class="flex items-center justify-end lg:w-10/12 space-x-2 lg:space-x-2">
-                    <li class="my-2"><a href="./index.html" class="text-white hover:font-bold text-lg lg:text-xl">Home</a></li>
-                    <li class="my-2"><a href="./about.html" class="text-white hover:font-bold text-lg lg:text-xl">About</a></li>
-                    <li class="my-2"><a href="./projects.html" class="text-white hover:font-bold text-lg lg:text-xl">Projects</a></li>
-                    <li class="my-2"><a href="./contact.html" class="text-white hover:font-bold text-lg lg:text-xl">Contact</a></li>
-                    <li class="my-2"><a href="https://linkedin.com/in/charbonnierjb" class="text-white hover:font-bold text-lg lg:text-xl">LinkedIn</a></li>
+                    <li class="my-2 flex items-center"><svg width="24" height="24"></svg><a href="./index.html" class="text-white hover:font-bold text-lg lg:text-xl">Home</a></li>
+                    <li class="my-2 flex items-center"><svg width="24" height="24"></svg><a href="./about.html" class="text-white hover:font-bold text-lg lg:text-xl">About</a></li>
+                    <li class="my-2 flex items-center"><svg width="24" height="24"></svg><a href="./projects.html" class="text-white hover:font-bold text-lg lg:text-xl">Projects</a></li>
+                    <li class="my-2 flex items-center"><svg width="24" height="24"></svg><a href="./contact.html" class="text-white hover:font-bold text-lg lg:text-xl">Contact</a></li>
+                    <li class="my-2 flex items-center"><svg width="24" height="24"></svg><a href="https://linkedin.com/in/charbonnierjb" class="text-white hover:font-bold text-lg lg:text-xl">LinkedIn</a></li>
                 </ul>
             </nav>
         </div>
     </footer>
     
 
-<script url="script.js"></script>
+<script src="script.js"></script>
     </body>
 </html>
