@@ -1,1 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path fill="#ffffff" d="M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z"/></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="px" height="96px" viewBox="0 0 72 96" version="1.1">
+<g id="surface1">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,100%,100%);fill-opacity:1;" d="M 0 6 L 6.542969 80.210938 L 35.90625 90 L 65.457031 80.210938 L 72 6 Z M 57.789062 29.980469 L 23.324219 29.980469 L 24.09375 39.242188 L 57.019531 39.242188 L 54.46875 67.070312 L 36.113281 72.132812 L 36.113281 72.1875 L 35.90625 72.1875 L 17.398438 67.070312 L 16.273438 52.855469 L 25.21875 52.855469 L 25.875 60 L 35.90625 62.71875 L 45.976562 60 L 47.101562 48.335938 L 15.804688 48.335938 L 13.40625 21.039062 L 58.613281 21.039062 Z M 57.789062 29.980469 "/>
+</g>
+</svg>
